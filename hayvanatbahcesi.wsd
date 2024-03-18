@@ -1,0 +1,54 @@
+@startuml Class HayvanProjesi
+title hayvanat bahçesi
+
+class hayvan
+{
+    +konumX:{get; set;}
+    +konumY:{get; set;}
+    +birim:{get; set;}
+
+}
+class cinsiyet
+{
+    dişi;
+    erkek;
+}
+
+class Arazi
+{
+    En = 500
+    Boy = 500
+}
+class Koyun Extends hayvan
+{
+    
+}
+class Kurt Extends hayvan
+{
+
+}
+class İnek Extends hayvan
+{
+
+}
+class Tavuk Extends hayvan
+{
+
+}
+class Horoz Extends hayvan
+{
+
+}
+class Aslan Extends hayvan
+{
+
+}
+class Avci Extends hayvan
+{
+    +Avla()
+}
+
+
+hide empty members
+@enduml
+
